@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+button{
+  color: aliceblue;
+  background-color: chocolate;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.reduce{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  
+  position: relative;
+
+}
+.reduce h1 {
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.add{
+  grid-row: 2;
+  grid-column: 1;
+  position: relative;
+}
+.detail {
+  grid-column: 2;
+  grid-row: 2;
+}
+.etudiant{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 3;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+
+}
+
+form input{
+  padding: 5px ;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+form select , option{
+  width: 50px;
+}
+.liste{
+  display: flex;
+  gap: 15px;
+}
+.blocs{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.blocs div{
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  width: 400px;
+}
+.blocs div select{
+  padding: 5px;
+  
+}
+ul li{
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modifier{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.modifier p{
+  display: flex;
+  gap: 10px;
+}
+.modifier input{
+  border: none;
+}
+.liste li{
+  display: flex;
+  gap: 20px;
+
+}
